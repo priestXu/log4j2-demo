@@ -1,0 +1,107 @@
+[17:29:22,974][DEBUG][org.jboss.logging        ][background-preinit] [] [] Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+[17:29:22,975][INFO ][org.hibernate.validator.internal.util.Version][background-preinit] [] [] HV000001: Hibernate Validator 6.0.18.Final
+[17:29:22,984][DEBUG][org.hibernate.validator.internal.engine.resolver.TraversableResolvers][background-preinit] [] [] Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+[17:29:22,988][DEBUG][org.hibernate.validator.internal.xml.config.ValidationXmlParser][background-preinit] [] [] Trying to load META-INF/validation.xml for XML based Validator configuration.
+[17:29:22,990][DEBUG][org.hibernate.validator.internal.xml.config.ResourceLoaderHelper][background-preinit] [] [] Trying to load META-INF/validation.xml via TCCL
+[17:29:22,990][DEBUG][org.hibernate.validator.internal.xml.config.ResourceLoaderHelper][background-preinit] [] [] Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+[17:29:22,990][DEBUG][org.hibernate.validator.internal.xml.config.ValidationXmlParser][background-preinit] [] [] No META-INF/validation.xml found. Using annotation based configuration only.
+[17:29:23,158][DEBUG][org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator][background-preinit] [] [] Loaded expression factory via original TCCL
+[17:29:23,162][DEBUG][org.hibernate.validator.internal.engine.ValidatorFactoryImpl][background-preinit] [] [] HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+[17:29:23,162][DEBUG][org.hibernate.validator.internal.engine.ValidatorFactoryImpl][background-preinit] [] [] HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+[17:29:23,162][DEBUG][org.hibernate.validator.internal.engine.ValidatorFactoryImpl][background-preinit] [] [] HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+[17:29:23,162][DEBUG][org.hibernate.validator.internal.engine.ValidatorFactoryImpl][background-preinit] [] [] HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+[17:29:23,162][DEBUG][org.hibernate.validator.internal.engine.ValidatorFactoryImpl][background-preinit] [] [] HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+[17:33:16,520][DEBUG][org.jboss.logging        ][background-preinit] [] [] Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+[17:33:16,521][INFO ][org.hibernate.validator.internal.util.Version][background-preinit] [] [] HV000001: Hibernate Validator 6.0.18.Final
+[17:33:16,534][DEBUG][org.hibernate.validator.internal.engine.resolver.TraversableResolvers][background-preinit] [] [] Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+[17:33:16,541][DEBUG][org.hibernate.validator.internal.xml.config.ValidationXmlParser][background-preinit] [] [] Trying to load META-INF/validation.xml for XML based Validator configuration.
+[17:33:16,543][DEBUG][org.hibernate.validator.internal.xml.config.ResourceLoaderHelper][background-preinit] [] [] Trying to load META-INF/validation.xml via TCCL
+[17:33:16,543][DEBUG][org.hibernate.validator.internal.xml.config.ResourceLoaderHelper][background-preinit] [] [] Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+[17:33:16,544][DEBUG][org.hibernate.validator.internal.xml.config.ValidationXmlParser][background-preinit] [] [] No META-INF/validation.xml found. Using annotation based configuration only.
+[17:33:16,862][DEBUG][org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator][background-preinit] [] [] Loaded expression factory via original TCCL
+[17:33:16,871][DEBUG][org.hibernate.validator.internal.engine.ValidatorFactoryImpl][background-preinit] [] [] HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+[17:33:16,871][DEBUG][org.hibernate.validator.internal.engine.ValidatorFactoryImpl][background-preinit] [] [] HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+[17:33:16,876][DEBUG][org.hibernate.validator.internal.engine.ValidatorFactoryImpl][background-preinit] [] [] HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+[17:33:16,876][DEBUG][org.hibernate.validator.internal.engine.ValidatorFactoryImpl][background-preinit] [] [] HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+[17:33:16,876][DEBUG][org.hibernate.validator.internal.engine.ValidatorFactoryImpl][background-preinit] [] [] HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+[17:35:32,420][DEBUG][org.jboss.logging        ][background-preinit] [] [] Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+[17:35:32,421][INFO ][org.hibernate.validator.internal.util.Version][background-preinit] [] [] HV000001: Hibernate Validator 6.0.18.Final
+[17:35:32,431][DEBUG][org.hibernate.validator.internal.engine.resolver.TraversableResolvers][background-preinit] [] [] Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+[17:35:32,443][DEBUG][org.hibernate.validator.internal.xml.config.ValidationXmlParser][background-preinit] [] [] Trying to load META-INF/validation.xml for XML based Validator configuration.
+[17:35:32,444][DEBUG][org.hibernate.validator.internal.xml.config.ResourceLoaderHelper][background-preinit] [] [] Trying to load META-INF/validation.xml via TCCL
+[17:35:32,445][DEBUG][org.hibernate.validator.internal.xml.config.ResourceLoaderHelper][background-preinit] [] [] Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+[17:35:32,445][DEBUG][org.hibernate.validator.internal.xml.config.ValidationXmlParser][background-preinit] [] [] No META-INF/validation.xml found. Using annotation based configuration only.
+[17:35:32,673][DEBUG][org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator][background-preinit] [] [] Loaded expression factory via original TCCL
+[17:35:32,701][DEBUG][org.hibernate.validator.internal.engine.ValidatorFactoryImpl][background-preinit] [] [] HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+[17:35:32,702][DEBUG][org.hibernate.validator.internal.engine.ValidatorFactoryImpl][background-preinit] [] [] HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+[17:35:32,702][DEBUG][org.hibernate.validator.internal.engine.ValidatorFactoryImpl][background-preinit] [] [] HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+[17:35:32,702][DEBUG][org.hibernate.validator.internal.engine.ValidatorFactoryImpl][background-preinit] [] [] HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+[17:35:32,702][DEBUG][org.hibernate.validator.internal.engine.ValidatorFactoryImpl][background-preinit] [] [] HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+[17:35:33,208][ERROR][org.springframework.boot.SpringApplication][main] [] [] Application run failed
+org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'logging.level' to java.util.Map<java.lang.String, org.springframework.boot.logging.LogLevel>
+	at org.springframework.boot.context.properties.bind.Binder.handleBindError(Binder.java:364) ~[spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:324) ~[spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:308) ~[spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:238) ~[spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:212) ~[spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.setLogLevels(LoggingApplicationListener.java:398) ~[spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeFinalLoggingLevels(LoggingApplicationListener.java:338) ~[spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:289) ~[spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:246) ~[spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:223) ~[spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172) ~[spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165) ~[spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139) ~[spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127) ~[spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:76) ~[spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:53) ~[spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:345) ~[spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) ~[spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) ~[spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at com.goodsogood.ows.Log4j2DemoApplicationKt.main(Log4j2DemoApplication.kt:18) ~[classes/:?]
+Caused by: org.springframework.core.convert.ConverterNotFoundException: No converter found capable of converting from type [java.lang.String] to type [java.util.Map<java.lang.String, org.springframework.boot.logging.LogLevel>]
+	at org.springframework.core.convert.support.GenericConversionService.handleConverterNotFound(GenericConversionService.java:321) ~[spring-core-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.core.convert.support.GenericConversionService.convert(GenericConversionService.java:194) ~[spring-core-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.boot.context.properties.bind.BindConverter$CompositeConversionService.convert(BindConverter.java:170) ~[spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.context.properties.bind.BindConverter.convert(BindConverter.java:96) ~[spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.context.properties.bind.BindConverter.convert(BindConverter.java:88) ~[spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.context.properties.bind.MapBinder.bindAggregate(MapBinder.java:64) ~[spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.context.properties.bind.AggregateBinder.bind(AggregateBinder.java:56) ~[spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindAggregate$3(Binder.java:415) ~[spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.context.properties.bind.Binder$$Lambda$66/804872134.get(Unknown Source) ~[?:?]
+	at org.springframework.boot.context.properties.bind.Binder$Context.withIncreasedDepth(Binder.java:572) ~[spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.context.properties.bind.Binder$Context.access$100(Binder.java:513) ~[spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.context.properties.bind.Binder.bindAggregate(Binder.java:415) ~[spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.context.properties.bind.Binder.bindObject(Binder.java:376) ~[spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:320) ~[spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	... 19 more
+[17:36:08,562][DEBUG][org.jboss.logging        ][background-preinit] [] [] Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+[17:36:08,562][INFO ][org.hibernate.validator.internal.util.Version][background-preinit] [] [] HV000001: Hibernate Validator 6.0.18.Final
+[17:36:08,572][DEBUG][org.hibernate.validator.internal.engine.resolver.TraversableResolvers][background-preinit] [] [] Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+[17:36:08,577][DEBUG][org.hibernate.validator.internal.xml.config.ValidationXmlParser][background-preinit] [] [] Trying to load META-INF/validation.xml for XML based Validator configuration.
+[17:36:08,579][DEBUG][org.hibernate.validator.internal.xml.config.ResourceLoaderHelper][background-preinit] [] [] Trying to load META-INF/validation.xml via TCCL
+[17:36:08,579][DEBUG][org.hibernate.validator.internal.xml.config.ResourceLoaderHelper][background-preinit] [] [] Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+[17:36:08,580][DEBUG][org.hibernate.validator.internal.xml.config.ValidationXmlParser][background-preinit] [] [] No META-INF/validation.xml found. Using annotation based configuration only.
+[17:36:08,779][DEBUG][org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator][background-preinit] [] [] Loaded expression factory via original TCCL
+[17:36:08,796][DEBUG][org.hibernate.validator.internal.engine.ValidatorFactoryImpl][background-preinit] [] [] HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+[17:36:08,796][DEBUG][org.hibernate.validator.internal.engine.ValidatorFactoryImpl][background-preinit] [] [] HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+[17:36:08,796][DEBUG][org.hibernate.validator.internal.engine.ValidatorFactoryImpl][background-preinit] [] [] HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+[17:36:08,798][DEBUG][org.hibernate.validator.internal.engine.ValidatorFactoryImpl][background-preinit] [] [] HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+[17:36:08,799][DEBUG][org.hibernate.validator.internal.engine.ValidatorFactoryImpl][background-preinit] [] [] HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+[17:36:10,750][DEBUG][org.hibernate.validator.internal.engine.resolver.TraversableResolvers][main] [] [] Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+[17:36:10,750][DEBUG][org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator][main] [] [] Loaded expression factory via original TCCL
+[17:36:10,752][DEBUG][org.hibernate.validator.internal.engine.resolver.TraversableResolvers][main] [] [] Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+[17:36:10,753][DEBUG][org.hibernate.validator.internal.engine.ConfigurationImpl][main] [] [] Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+[17:36:10,753][DEBUG][org.hibernate.validator.internal.engine.ConfigurationImpl][main] [] [] Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+[17:36:10,754][DEBUG][org.hibernate.validator.internal.engine.ConfigurationImpl][main] [] [] Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+[17:36:10,754][DEBUG][org.hibernate.validator.internal.xml.config.ValidationXmlParser][main] [] [] Trying to load META-INF/validation.xml for XML based Validator configuration.
+[17:36:10,754][DEBUG][org.hibernate.validator.internal.xml.config.ResourceLoaderHelper][main] [] [] Trying to load META-INF/validation.xml via user class loader
+[17:36:10,754][DEBUG][org.hibernate.validator.internal.xml.config.ResourceLoaderHelper][main] [] [] Trying to load META-INF/validation.xml via TCCL
+[17:36:10,754][DEBUG][org.hibernate.validator.internal.xml.config.ResourceLoaderHelper][main] [] [] Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+[17:36:10,755][DEBUG][org.hibernate.validator.internal.xml.config.ValidationXmlParser][main] [] [] No META-INF/validation.xml found. Using annotation based configuration only.
+[17:36:10,758][DEBUG][org.hibernate.validator.internal.engine.ValidatorFactoryImpl][main] [] [] HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+[17:36:10,758][DEBUG][org.hibernate.validator.internal.engine.ValidatorFactoryImpl][main] [] [] HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+[17:36:10,758][DEBUG][org.hibernate.validator.internal.engine.ValidatorFactoryImpl][main] [] [] HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+[17:36:10,758][DEBUG][org.hibernate.validator.internal.engine.ValidatorFactoryImpl][main] [] [] HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+[17:36:10,758][DEBUG][org.hibernate.validator.internal.engine.ValidatorFactoryImpl][main] [] [] HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
