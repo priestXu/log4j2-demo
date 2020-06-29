@@ -23,4 +23,11 @@ class DemoController {
         log.error("test error")
         log.warn("test warn")
     }
+
+    @GetMapping("/log-wx")
+    fun logWechat() {
+        for (i in 1..10) {
+            log.debug("接收到公众号:12345 来自用户:user${i} 的文本消息:XXXXXXXXXXXXXXXXXXXXXXX")
+        }
+    }
 }

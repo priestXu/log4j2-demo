@@ -5,7 +5,7 @@
         <property name="LEVEL">DEBUG</property>
         <property name="APP_NAME">log4j2-demo</property>
         <property name="LOG_HOME">/var/log/webapps/${APP_NAME}</property>
-<!--        <property name="LOG_HOME">/Users/xuliduo/workspaces/IdeaProjects/log4j2-demo/logs</property>-->
+        <!--        <property name="LOG_HOME">/Users/xuliduo/workspaces/IdeaProjects/log4j2-demo/logs</property>-->
     </properties>
 
     <appenders>
@@ -13,11 +13,23 @@
             <PatternLayout pattern="[%d{ABSOLUTE}][%-5p][%-25c][%t] [%X{tracker_id}] [%X{span_id}] %m%n"/>
         </Console>
 
-        <RocketMQ name="RocketMQAppender" producerGroup="GID-LOG-GROUP-DEV"
-                  nameServerAddress="http://MQ_INST_1800905664452867_BcoLdkFg.cn-hangzhou.mq-internal.aliyuncs.com:8080"
-                  topic="ows-log-topic-dev" tag="ows-log" accessKey="LTAIB8LtE2CvPHC6"
-                  secretKey="9pMonbKn1UeX7RzJf6fKUys8xg4Z71">
-            <!--            <PatternLayout pattern="[%d{ABSOLUTE}][%-5p][%-25c][%t] [%X{tracker_id}] [%X{span_id}] %m%n"/>-->
+        <!--        <RocketMQ name="RocketMQAppender" producerGroup="ows-log-group-dev" nameServerAddress="192.168.2.245:9876"-->
+        <!--                  topic="ows-log-topic-dev" tag="ows-log" accessKey="xxx" secretKey="xxx">-->
+        <!--            <JsonLayout propertiesAsList="true" includeStacktrace="true" stacktraceAsString="true"-->
+        <!--                        includeTimeMillis="true">-->
+        <!--                <KeyValuePair key="timestamp" value="$${date:yyyy-MM-dd HH:mm:ss.SSS}"/>-->
+        <!--                <KeyValuePair key="server-name" value="$${APP_NAME}"/>-->
+        <!--                <KeyValuePair key="start_time" value="$${ctx:start_time}"/>-->
+        <!--                <KeyValuePair key="type" value="$${ctx:type}"/>-->
+        <!--                <KeyValuePair key="name" value="$${ctx:name}"/>-->
+        <!--                <KeyValuePair key="tracker_id" value="$${ctx:tracker_id}"/>-->
+        <!--                <KeyValuePair key="span_id" value="$${ctx:span_id}"/>-->
+        <!--                <KeyValuePair key="p_span_id" value="$${ctx:p_span_id}"/>-->
+        <!--                <KeyValuePair key="env" value="$${ctx:env}"/>-->
+        <!--            </JsonLayout>-->
+        <!--        </RocketMQ>-->
+        <RabbitMQ name="RabbitMQ" host="172.16.40.33" port="5672" username="gsg" password="gsg"
+                  exchange="ows.log.dev.fanout" queue="ows-log-queue-dev" virtualHost="/">
             <JsonLayout propertiesAsList="true" includeStacktrace="true" stacktraceAsString="true"
                         includeTimeMillis="true">
                 <KeyValuePair key="timestamp" value="$${date:yyyy-MM-dd HH:mm:ss.SSS}"/>
@@ -30,42 +42,42 @@
                 <KeyValuePair key="p_span_id" value="$${ctx:p_span_id}"/>
                 <KeyValuePair key="env" value="$${ctx:env}"/>
             </JsonLayout>
-        </RocketMQ>
-
+        </RabbitMQ>
         <!-- 配置日志输出文件名字     追加读写 -->
-        <RollingRandomAccessFile name="RollingFile" fileName="${LOG_HOME}/${APP_NAME}-${LEVEL}.log"
-                                 filePattern="${LOG_HOME}/${APP_NAME}-${LEVEL}-%d{yyyy-MM-dd}.log" append="true">
-            <!-- 输出格式 -->
-            <PatternLayout pattern="[%d{ABSOLUTE}][%-5p][%-25c][%t] [%X{tracker_id}] [%X{span_id}] %m%n"/>
-            <!-- 设置策略 -->
-            <Policies>
-                <!-- 基于时间的触发策略。该策略主要是完成周期性的log文件封存工作。有两个参数：
-                interval，integer型，指定两次封存动作之间的时间间隔。单位:以日志的命名精度来确定单位，
-                比如yyyy-MM-dd-HH 单位为小时，yyyy-MM-dd-HH-mm 单位为分钟
-                modulate，boolean型，说明是否对封存时间进行调制。若modulate=true，
-                则封存时间将以0点为边界进行偏移计算。比如，modulate=true，interval=4hours，
-                那么假设上次封存日志的时间为03:00，则下次封存日志的时间为04:00，
-                之后的封存时间依次为08:00，12:00，16:00
-                -->
-                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
-            </Policies>
-        </RollingRandomAccessFile>
+        <!--        <RollingRandomAccessFile name="RollingFile" fileName="${LOG_HOME}/${APP_NAME}-${LEVEL}.log"-->
+        <!--                                 filePattern="${LOG_HOME}/${APP_NAME}-${LEVEL}-%d{yyyy-MM-dd}.log" append="true">-->
+        <!--            &lt;!&ndash; 输出格式 &ndash;&gt;-->
+        <!--            <PatternLayout pattern="[%d{ABSOLUTE}][%-5p][%-25c][%t] [%X{tracker_id}] [%X{span_id}] %m%n"/>-->
+        <!--            &lt;!&ndash; 设置策略 &ndash;&gt;-->
+        <!--            <Policies>-->
+        <!--                &lt;!&ndash; 基于时间的触发策略。该策略主要是完成周期性的log文件封存工作。有两个参数：-->
+        <!--                interval，integer型，指定两次封存动作之间的时间间隔。单位:以日志的命名精度来确定单位，-->
+        <!--                比如yyyy-MM-dd-HH 单位为小时，yyyy-MM-dd-HH-mm 单位为分钟-->
+        <!--                modulate，boolean型，说明是否对封存时间进行调制。若modulate=true，-->
+        <!--                则封存时间将以0点为边界进行偏移计算。比如，modulate=true，interval=4hours，-->
+        <!--                那么假设上次封存日志的时间为03:00，则下次封存日志的时间为04:00，-->
+        <!--                之后的封存时间依次为08:00，12:00，16:00-->
+        <!--                &ndash;&gt;-->
+        <!--                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>-->
+        <!--            </Policies>-->
+        <!--        </RollingRandomAccessFile>-->
 
     </appenders>
     <loggers>
         <logger name="com.goodsogood.ows" level="DEBUG" includeLocation="true" additivity="false">
-            <AppenderRef ref="RocketMQAppender"/>
+            <AppenderRef ref="RabbitMQ"/>
             <AppenderRef ref="Console"/>
         </logger>
 
         <!--过滤掉spring一些无用的DEBUG信息-->
-        <logger name="org.springframework" level="WARN"/>
+        <logger name="org.springframework" level="DEBUG"/>
+        <logger name="com.rabbitmq" level="DEBUG"/>
         <logger name="org.apache" level="ERROR"/>
         <logger name="com.netflix" level="ERROR"/>
 
         <root level="DEBUG">
             <AppenderRef ref="Console"/>
-            <AppenderRef ref="RollingFile"/>
+            <!--            <AppenderRef ref="RollingFile"/>-->
         </root>
     </loggers>
 </configuration>
